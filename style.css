@@ -1,0 +1,309 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: "Roboto Light",sans-serif;
+    font-size: medium;
+    font-weight: normal;
+}
+
+/* Couleur*/
+.white{
+    color: white;
+}
+.skyblue{
+    color: deepskyblue;
+}
+/*MISE EN FORME*/
+
+    /*Padding*/
+
+.bandeau1,.divtextservices,.divservices,.bandeauTitre,.rangee1,.rangee2,.DefSectLeft,.bandeauDefault,.bandeauTwitter,.bandeauWho,.bandeauTestimonials,.bandeauContact,.boiteCredit{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+/*BOITE 1*/
+
+.boite1{
+    background-image: url("images/HERO.jpg");
+    filter: grayscale(0);
+    height: 70vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+}
+.bandeau1{
+    height: 20%;
+    background-color: rgba(2, 2, 2, 0.42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.bandeau2{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.liens{
+    display: flex;
+    align-items: center;
+}
+.lien{
+    text-decoration: none;
+    font-size: medium;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.encadrement{
+    width: fit-content;
+    border: skyblue solid 3px;
+}
+.punchline{
+    background-color: rgba(128, 128, 128, 0.37);
+    text-transform: uppercase;
+}
+
+.margintop{
+    margin-top: 10px;
+}
+
+/* BOITE SERVICE */
+
+.boiteservices{
+    height: 60vh;
+    background-image: url("images/fondservices.png");
+}
+.divtextservices{
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+.textservices{
+    color: white;
+}
+.divservices{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.lesServices{
+    width: 20%;
+    color: white;
+}
+/*MISE EN FORME SECTION*/
+
+.bandeauTitre{
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.titreSection{
+    display: flex;
+    align-items: center;
+}
+.logoTwitter,.logoTestimonials{
+    height: 100%;
+    width: 32px;
+    display: flex;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*BOITE PORTFOLIO*/
+.boiteportfolio{
+    height: 75vh;
+    background-color: white;
+}
+.bandeauPortfolio2{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.pfimage1,.pfimage2,.pfimage3,.pfimage4,.pfimage5,.pfimage6,.pfimage7,.pfimage8{
+    height: 20vh;
+    width: 17vw;
+    background-position: center;
+    background-size: cover;
+}
+.pfimage1{
+    background-image: url("images/portfolio/1.png")
+}
+.pfimage2{
+    background-image: url("images/portfolio/2.png");
+}
+.pfimage3{
+    background-image: url("images/portfolio/3.png");
+}
+.pfimage4{
+    background-image: url("images/portfolio/4.png");
+}
+.pfimage5{
+    background-image: url("images/portfolio/5.png");
+}
+.pfimage6{
+    background-image: url("images/portfolio/6.png");
+}
+.pfimage7{
+    background-image: url("images/portfolio/7.png");
+}
+.pfimage8{
+    background-image: url("images/portfolio/8.png");
+}
+.rangee1,.rangee2{
+    display: flex;
+    justify-content: space-between;
+}
+
+/*JUST DEFAULT SECTION*/
+
+.boiteDefaultSect{
+    background-color: #556262;
+    height: 70vh;
+}
+.bandeauTitreDefault{
+    height: 20vh;
+}
+.bandeauDefault{
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+}
+.splitLeft{
+    padding-right: 15px;
+}
+.visitMe{
+    width: fit-content;
+    border: rgba(51, 50, 50, 0.93) solid 4px;
+
+    padding: 15px 30px 15px 30px;
+}
+.lienVisitMe{
+    color: rgba(51, 50, 50, 0.93);
+    text-decoration: none;
+}
+
+/*BOITE TWITTER*/
+.boiteTwitter{
+    height: 40vh;
+    background-image: url("images/fondservices.png");
+}
+.logoTwitter{
+    background-image: url("images/twitter.png");
+}
+.bandeauTwitter{
+    height: 20vh;
+}
+
+/*BANDEAU WHO IS*/
+
+.boiteWho{
+    height: 60vh;
+    background-color: rgb(177, 177, 204);
+}
+.logoWho{
+    display: flex;
+    align-items: center;
+}
+.rs1,.rs2,.rs3,.rs4{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: white solid 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.rs1{
+    background-image: url("images/twitter.png");
+}
+.rs2{
+    background-image: url("images/googleplus.png");
+}
+.rs3{
+    background-image: url("images/dribble.png");
+}
+.rs4{
+    background-image: url("images/coffee2.png");
+}
+.bandeauWho{
+    height: 40vh;
+    display: flex;
+}
+
+/* BOITE TESTIMONIALS */
+.boiteTestimonials{
+    height: 40vh;
+}
+.logoTestimonials{
+    background-image: url("images/guillemets.png");
+}
+.bandeauTestimonials{
+    height: 20vh;
+}
+.walter{
+    color: turquoise;
+}
+
+/*BOITE CONTACT*/
+
+.boiteContact{
+    height: 90vh;
+    background-color: rgb(177, 177, 204);
+}
+.bandeauContact{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.contactForms{
+    display: flex;
+}
+.formInput,.messageInput{
+    border: white solid 2px;
+    background-color: rgb(177, 177, 204);
+}
+.formInput{
+    width: 40vw;
+    height: 5vh;
+}
+.contactMessage{
+    padding-top: 20px;
+}
+.messageInput{
+    width: 70vw;
+    height: 20vh;
+}
+.submitInput{
+    width: 20vw;
+    height: 7vh;
+    background-color: #476781;
+    border: #476781 solid 2px;
+    border-radius: 2%;
+}
+
+/*  BOITE CREDIT */
+.boiteCredit{
+    height: 20vh;
+    background-color: #66706f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.creditMenu{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.gris{
+    color: rgba(182, 175, 175, 0.87);
+}
+.subtitle{
+    text-decoration-line: underline;
+}
